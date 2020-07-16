@@ -12,7 +12,7 @@ function reverse(str: String): String {
   return reverseString;
 }
 
-reverse('Pratik');
+reverse('apple');
 
 // solution 2
 function reverse2(str: String): String {
@@ -25,7 +25,7 @@ function reverse2(str: String): String {
   return reversed;
 }
 
-reverse2('Pratik');
+reverse2('hello');
 
 // solution 3
 function reverse3(str: String): string {
@@ -33,8 +33,7 @@ function reverse3(str: String): string {
     acc = el + acc;
     return acc;
   }, '');
-  console.log(reversed);
   return reversed;
 }
 
-reverse3('Pratik');
+reverse3('apple');
