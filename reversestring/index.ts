@@ -22,9 +22,19 @@ function reverse2(str: String): String {
     reversed = el + reversed;
   }
 
-  console.log(reversed);
-
   return reversed;
 }
 
-reverse2('pratik');
+reverse2('Pratik');
+
+// solution 3
+function reverse3(str: String): string {
+  const reversed = str.split('').reduce((acc, el) => {
+    acc = el + acc;
+    return acc;
+  }, '');
+  console.log(reversed);
+  return reversed;
+}
+
+reverse3('Pratik');
