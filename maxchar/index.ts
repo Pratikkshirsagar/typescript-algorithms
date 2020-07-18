@@ -6,7 +6,6 @@
 // maxChar("apple 1231111") === "1"
 
 function maxchar(str: String): String {
-  let strArray = str.split('');
   let maxChar = '';
   let maxInt = 0;
   let chars: any = {};
